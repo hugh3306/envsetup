@@ -19,3 +19,6 @@ vim.keymap.set({ 'i', 'v', 'n' }, '<C-j>', '<C-w>j', { noremap = true })
 vim.keymap.set({ 'i', 'v', 'n' }, '<C-k>', '<C-w>k', { noremap = true })
 vim.keymap.set({ 'i', 'v', 'n' }, '<C-h>', '<C-w>h', { noremap = true })
 vim.keymap.set({ 'i', 'v', 'n' }, '<C-l>', '<C-w>l', { noremap = true })
+
+vim.keymap.set( 'v', 'J', ":m '>+1<CR>gv=gv")
+vim.keymap.set( 'v', 'K', ":m '<-2<CR>gv=gv")

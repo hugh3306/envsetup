@@ -60,6 +60,11 @@ require('packer').startup(function(use)
   -- Formatting
   use("jose-elias-alvarez/null-ls.nvim")
 
+  use {
+	"windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup {} end
+  }
+
   -- Git related plugins
   use 'tpope/vim-fugitive'
   use 'tpope/vim-rhubarb'
