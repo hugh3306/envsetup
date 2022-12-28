@@ -144,6 +144,7 @@ vim.cmd [[colorscheme nightfox]]
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
 
+vim.o.relativenumber = true
 vim.o.splitbelow = true
 vim.o.splitright = true
 vim.o.title = true
