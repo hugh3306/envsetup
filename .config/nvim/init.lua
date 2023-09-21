@@ -69,7 +69,7 @@ require('packer').startup(function(use)
   use 'tpope/vim-fugitive'
   use 'tpope/vim-rhubarb'
   use 'lewis6991/gitsigns.nvim'
-  use { 'sindrets/diffview.nvim', commit = '58035354fc79c6ec42fa7b218dab90bd3968615f', requires = 'nvim-lua/plenary.nvim' }
+  use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
 
   -- use 'navarasu/onedark.nvim' -- Theme inspired by Atom
   use 'folke/tokyonight.nvim'
