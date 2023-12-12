@@ -24,3 +24,7 @@ vim.keymap.set( 'v', 'J', ":m '>+1<CR>gv=gv")
 vim.keymap.set( 'v', 'K', ":m '<-2<CR>gv=gv")
 
 vim.keymap.set({ 'n' }, '<leader>tc', ':tabclose<CR>', { noremap = true, silent = true })
+
+vim.keymap.set({ 'n' }, '<leader>ft', ':FloatermNew<CR>', { noremap = true, silent = true })
+vim.keymap.set({ 'n' }, '<leader>fo', ':FloatermToggle<CR>', { noremap = true, silent = true })
+
